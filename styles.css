@@ -24,4 +24,27 @@ html, body {
     width: 60vw;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4em;
+    background-color: black;
+    opacity: .6;
+    margin-top: 30%;
+    
+  }
+
+  .banner p{
+    margin: 0;
+  }
+
+  .banner img {
+    width: 5rem;
+    padding: 10px;;
   }
