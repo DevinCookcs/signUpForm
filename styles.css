@@ -48,3 +48,41 @@ html, body {
     width: 5rem;
     padding: 10px;;
   }
+
+  .form-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+
+  .call,
+  .form-submit {
+    padding: 0px 2vw;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 2vw;
+  }
+
+  form {
+    display: flex;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin-bottom: 15px;
+  }
+
+
+
